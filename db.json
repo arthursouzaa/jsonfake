@@ -1,26 +1,25 @@
-
 {
   "Cliente": [
-    { "id": 1, "nome": "Arthur Souza", "email": "arthurjf.estudo@gmail.com", "telefone": "99-9999-9999", "senha": "1", "senhaConfirmada": "1"},
-    { "id": 2, "nome": "Aduler Viana", "email": "adulerviana@gmail.com", "telefone": "99-9999-9999", "senha": "1", "senhaConfirmada": "1"},
-    { "id": 3, "nome": "Nadine Vasconcellos","email": "nadineifsudeste@gmail.com", "telefone": "99-9999-9999", "senha": "1", "senhaConfirmada": "1"}
+    { "id": 1, "nome": "Arthur Souza", "email": "arthurjf.estudo@gmail.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"},
+    { "id": 2, "nome": "Aduler Viana", "email": "adulerviana@gmail.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"},
+    { "id": 3, "nome": "Nadine Vasconcellos","email": "nadineifsudeste@gmail.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"}
   ],
   "MetaFinanceira": [
-    { "id": 1, "nome": "Meta 1", "valor": 2000.00, "dataAlvo": "2028-06-31", "investimentoInicial": 100.00, "idCliente": 1},
-    { "id": 2, "nome": "Meta 2", "valor": 1000.00, "dataAlvo": "2027-02-20", "investimentoInicial": 100.00 , "idCliente": 1},
-    { "id": 3, "nome": "Meta 3", "valor": 10000.00, "dataAlvo": "2030-03-15", "investimentoInicial": 100.00 , "idCliente": 1},
-    { "id": 4, "nome": "Meta 4", "valor": 5300.00, "dataAlvo": "2030-12-30", "investimentoInicial": 100.00 , "idCliente": 1}
+    { "id": 1, "nome": "Casamento", "valor": 20000.00, "dataAlvo": "2028-08", "investimentoInicial": 1000.00, "idCliente": 1},
+    { "id": 2, "nome": "PlayStation 5", "valor": 5000.00, "dataAlvo": "2026-06", "investimentoInicial": 300.00 , "idCliente": 1},
+    { "id": 3, "nome": "Apartamento", "valor": 200000.00, "dataAlvo": "2030-03", "investimentoInicial": 500.00 , "idCliente": 1},
+    { "id": 4, "nome": "Carro", "valor": 80000.00, "dataAlvo": "2027-10", "investimentoInicial": 5000.00 , "idCliente": 1}
   ],
   "Aporte": [
-    { "id": 1, "valor": 120.00,  "idMetaFinanceira": 1},
-    { "id": 2, "valor": 30.00,  "idMetaFinanceira": 1},
-    { "id": 3, "valor": 35.00, "idMetaFinanceira": 2},
-    { "id": 4, "valor": 300.00,  "idMetaFinanceira": 3}
+    { "id": 1, "valor": 2400.00,  "idMetaFinanceira": 1},
+    { "id": 2, "valor": 800.00,  "idMetaFinanceira": 2},
+    { "id": 3, "valor": 8700.00, "idMetaFinanceira": 3},
+    { "id": 4, "valor": 5000.00,  "idMetaFinanceira": 4}
   ],
   "FormaPagamento": [
-    { "id": 1, "nome": "Forma de Pagamento 1", "idCliente": 1},
-    { "id": 2, "nome": "Forma de Pagamento 2", "idCliente": 1},
-    { "id": 3, "nome": "Forma de Pagamento 3", "idCliente": 1},
-    { "id": 4, "nome": "Forma de Pagamento 4", "idCliente": 1}
+    { "id": 1, "nome": "Pix", "idCliente": 1},
+    { "id": 2, "nome": "Boleto", "idCliente": 1},
+    { "id": 3, "nome": "Cartão de Débito 1", "idCliente": 1},
+    { "id": 4, "nome": "Cartão de Crédito 1", "idCliente": 1}
   ]
 }
