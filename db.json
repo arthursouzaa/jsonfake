@@ -11,10 +11,10 @@
     { "id": 4, "nome": "Carro", "valor": 80000.00, "dataAlvo": "2027-10", "investimentoInicial": 5000.00 , "idCliente": 1}
   ],
   "Aporte": [
-    { "id": 1, "valor": 2400.00, "nomeMetaFinanceira": "Casamento"},
-    { "id": 2, "valor": 800.00,  "nomeMetaFinanceira": "PlayStation 5"},
-    { "id": 3, "valor": 8700.00, "nomeMetaFinanceira": "Apartamento"},
-    { "id": 4, "valor": 5000.00,  "nomeMetaFinanceira": "Carro"}
+    { "id": 1, "valor": 2400.00, "idMetaFinanceira": "Casamento"},
+    { "id": 2, "valor": 800.00,  "idMetaFinanceira": "PlayStation 5"},
+    { "id": 3, "valor": 8700.00, "idMetaFinanceira": "Apartamento"},
+    { "id": 4, "valor": 5000.00,  "idMetaFinanceira": "Carro"}
   ],
   "FormaPagamento": [
     { "id": 1, "nome": "Pix", "idCliente": 1},
