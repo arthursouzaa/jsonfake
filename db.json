@@ -11,10 +11,10 @@
     { "id": 4, "status": false, "nome": "Carro", "valor": 80000.00, "dataAlvo": "2027-10", "investimentoInicial": 5000.00 , "idCliente": 1}
   ],
   "Aporte": [
-    { "id": 1, "valor": 2400.00, "idMetaFinanceira": 1},
-    { "id": 2, "valor": 800.00,  "idMetaFinanceira": 2},
-    { "id": 3, "valor": 8700.00, "idMetaFinanceira": 3},
-    { "id": 4, "valor": 5000.00,  "idMetaFinanceira": 4}
+    { "id": 1, "valor": 2400.00, "data": "2025-09-05", "idMetaFinanceira": 1},
+    { "id": 2, "valor": 800.00,  "data": "2025-09-05", "idMetaFinanceira": 2},
+    { "id": 3, "valor": 8700.00, "data": "2025-10-06", "idMetaFinanceira": 3},
+    { "id": 4, "valor": 5000.00,  "data": "2025-11-08", "idMetaFinanceira": 4}
   ],
   "FormaPagamento": [
     { "id": 1, "nome": "Pix", "idCliente": 1},

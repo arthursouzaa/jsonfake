@@ -4,17 +4,17 @@
     { "id": 2, "nome": "Aduler Viana", "email": "adulerviana@gmail.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"},
     { "id": 3, "nome": "Nadine Vasconcellos","email": "nadineifsudeste@gmail.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"}
   ],
-  "MetaFinanceira": [
-    { "id": 1, "nome": "Casamento", "valor": 20000.00, "dataAlvo": "2028-08", "investimentoInicial": 1000.00, "idCliente": 1},
-    { "id": 2, "nome": "PlayStation 5", "valor": 5000.00, "dataAlvo": "2026-06", "investimentoInicial": 300.00 , "idCliente": 1},
-    { "id": 3, "nome": "Apartamento", "valor": 200000.00, "dataAlvo": "2030-03", "investimentoInicial": 500.00 , "idCliente": 1},
-    { "id": 4, "nome": "Carro", "valor": 80000.00, "dataAlvo": "2027-10", "investimentoInicial": 5000.00 , "idCliente": 1}
+  "MetaFinanceira": [ 
+    { "id": 1, "status": false, "nome": "Casamento", "valor": 20000.00, "dataAlvo": "2028-08", "investimentoInicial": 1000.00, "idCliente": 1},
+    { "id": 2, "status": false, "nome": "PlayStation 5", "valor": 5000.00, "dataAlvo": "2026-06", "investimentoInicial": 300.00 , "idCliente": 1},
+    { "id": 3, "status": false, "nome": "Apartamento", "valor": 200000.00, "dataAlvo": "2030-03", "investimentoInicial": 500.00 , "idCliente": 1},
+    { "id": 4, "status": false, "nome": "Carro", "valor": 80000.00, "dataAlvo": "2027-10", "investimentoInicial": 5000.00 , "idCliente": 1}
   ],
   "Aporte": [
-    { "id": 1, "valor": 2400.00,  "idMetaFinanceira": 1},
-    { "id": 2, "valor": 800.00,  "idMetaFinanceira": 2},
-    { "id": 3, "valor": 8700.00, "idMetaFinanceira": 3},
-    { "id": 4, "valor": 5000.00,  "idMetaFinanceira": 4}
+    { "id": 1, "valor": 2400.00, "data": "2025-09-05", "idMetaFinanceira": 1},
+    { "id": 2, "valor": 800.00,  "data": "2025-09-05", "idMetaFinanceira": 2},
+    { "id": 3, "valor": 8700.00, "data": "2025-10-06", "idMetaFinanceira": 3},
+    { "id": 4, "valor": 5000.00,  "data": "2025-11-08", "idMetaFinanceira": 4}
   ],
   "FormaPagamento": [
     { "id": 1, "nome": "Pix", "idCliente": 1},
@@ -23,28 +23,28 @@
     { "id": 4, "nome": "Cartão de Crédito 1", "idCliente": 1}
   ],
   "Receita": [
-    { "id": 1, "nome": "Salário", "data": "2025-09-05", "volume": true, "valor": 2500.00,  "idCategoriaReceita": 1, "idCliente": 1 },
-    { "id": 2, "nome": "Aluguel", "data": "2025-09-06", "volume": true, "valor": 600.00,  "idCategoriaReceita": 4, "idCliente": 1 },
-    { "id": 3, "nome": "Presente de aniversário", "data": "2025-09-13", "volume": false, "valor": 100.00, "idCategoriaReceita": 3, "idCliente": 1 },
-    { "id": 4, "nome": "Edição de vídeo", "data": "2025-09-20", "volume": false, "valor": 60.00,  "idCategoriaReceita": 2, "idCliente": 1 }
+    { "id": 1, "tipo": "Receita", "nome": "Salário", "data": "2025-09-05", "volume": true, "valor": 2500.00,  "idCategoriaReceita": 1, "idCliente": 1 },
+    { "id": 2, "tipo": "Receita", "nome": "Aluguel", "data": "2025-09-06", "volume": true, "valor": 600.00,  "idCategoriaReceita": 4, "idCliente": 1 },
+    { "id": 3, "tipo": "Receita", "nome": "Presente de aniversário", "data": "2025-09-13", "volume": false, "valor": 100.00, "idCategoriaReceita": 3, "idCliente": 1 },
+    { "id": 4, "tipo": "Receita", "nome": "Edição de vídeo", "data": "2025-09-20", "volume": false, "valor": 60.00,  "idCategoriaReceita": 2, "idCliente": 1 }
   ],
   "Despesa": [
-    { "id": 1, "nome": "Gasolina", "data": "2025-09-18", "volume": false, "valor": 50.00, "parcelada": false, "quantidadeParcelas": 0,  "idCategoriaDespesa": 4, "idFormaPagamento": 1, "idCliente": 1 },
-    { "id": 2, "nome": "Cinema", "data": "2025-09-20", "volume": false, "valor": 40.00, "parcelada": false, "quantidadeParcelas": 0,  "idCategoriaDespesa": 3, "idFormaPagamento": 2, "idCliente": 1 },
-    { "id": 3, "nome": "Aluguel", "data": "2025-09-10", "volume": true, "valor": 500.00, "parcelada": false, "quantidadeParcelas": 0, "idCategoriaDespesa": 1, "idFormaPagamento": 3, "idCliente": 1 },
-    { "id": 4, "nome": "Compras do mês", "data": "2025-09-03", "volume": false, "valor": 1200.00, "parcelada": true, "quantidadeParcelas": 3,  "idCategoriaDespesa": 2, "idFormaPagamento": 4, "idCliente": 1}
+    { "id": 1, "tipo": "Despesa", "nome": "Gasolina", "data": "2025-09-18", "volume": false, "valor": 50.00, "parcelada": false, "quantidadeParcelas": 0,  "paga": false, "idCategoriaDespesa": 4, "idFormaPagamento": 1, "idCliente": 1 },
+    { "id": 2, "tipo": "Despesa", "nome": "Cinema", "data": "2025-09-20", "volume": false, "valor": 40.00, "parcelada": false, "quantidadeParcelas": 0,  "paga": false, "idCategoriaDespesa": 3, "idFormaPagamento": 2, "idCliente": 1 },
+    { "id": 3, "tipo": "Despesa", "nome": "Aluguel", "data": "2025-09-10", "volume": true, "valor": 500.00, "parcelada": false, "quantidadeParcelas": 0, "paga": false, "idCategoriaDespesa": 1, "idFormaPagamento": 3, "idCliente": 1 },
+    { "id": 4, "tipo": "Despesa", "nome": "Compras do mês", "data": "2025-09-03", "volume": false, "valor": 1200.00, "parcelada": true, "quantidadeParcelas": 3,  "paga": false, "idCategoriaDespesa": 2, "idFormaPagamento": 4, "idCliente": 1}
   ],
   "CategoriaReceita": [
-    { "id": 1, "nome": "Salário e Proventos", "idCliente": 1 },
-    { "id": 2, "nome": "Serviços Prestados", "idCliente": 1 },
-    { "id": 3, "nome": "Presentes e Doações", "idCliente": 1 },
-    { "id": 4, "nome": "Aluguel recebido", "idCliente": 1 }
+    { "id": 1, "tipo": "Receita", "nome": "Salário e Proventos", "idCliente": 1 },
+    { "id": 2, "tipo": "Receita", "nome": "Serviços Prestados", "idCliente": 1 },
+    { "id": 3, "tipo": "Receita", "nome": "Presentes e Doações", "idCliente": 1 },
+    { "id": 4, "tipo": "Receita", "nome": "Aluguel recebido", "idCliente": 1 }
   ],
   "CategoriaDespesa": [
-    { "id": 1, "nome": "Moradia", "limiteGasto": true, "valorLimite": 800.00, "idCliente": 1 },
-    { "id": 2, "nome": "Alimentação", "limiteGasto": true, "valorLimite": 1200.00, "idCliente": 1 },
-    { "id": 3, "nome": "Lazer", "limiteGasto": true, "valorLimite": 400.00, "idCliente": 1 },
-    { "id": 4, "nome": "Transporte", "limiteGasto": true, "valorLimite": 300.00, "idCliente": 1 }
+    { "id": 1, "tipo": "Despesa", "nome": "Moradia", "limiteGasto": true, "valorLimite": 800.00, "idCliente": 1 },
+    { "id": 2, "tipo": "Despesa", "nome": "Alimentação", "limiteGasto": true, "valorLimite": 1200.00, "idCliente": 1 },
+    { "id": 3, "tipo": "Despesa", "nome": "Lazer", "limiteGasto": true, "valorLimite": 400.00, "idCliente": 1 },
+    { "id": 4, "tipo": "Despesa", "nome": "Transporte", "limiteGasto": true, "valorLimite": 300.00, "idCliente": 1 }
   ],
   "Parcela": [
     { "id": 1, "valorParcela": 100.00, "idDespesa": 3 }
