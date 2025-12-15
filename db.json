@@ -12,7 +12,7 @@
   ],
   "Aporte": [
     { "id": 1, "valor": 2400.00, "data": "2025-09-05", "idMetaFinanceira": 1},
-    { "id": 2, "valor": 800.00,  "data": "2025-09-05", "idMetaFinanceira": 2},
+    { "id": 2, "valor": 800.00,  "data": "2025-09-24", "idMetaFinanceira": 2},
     { "id": 3, "valor": 8700.00, "data": "2025-10-06", "idMetaFinanceira": 3},
     { "id": 4, "valor": 5000.00,  "data": "2025-11-08", "idMetaFinanceira": 4}
   ],
