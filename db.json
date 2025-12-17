@@ -1,8 +1,9 @@
 {
   "Cliente": [
-    { "id": 1, "nome": "Arthur Souza", "email": "arthurjf.estudo@gmail.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"},
-    { "id": 2, "nome": "Aduler Viana", "email": "adulerviana@gmail.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"},
-    { "id": 3, "nome": "Nadine Vasconcellos","email": "nadineifsudeste@gmail.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"}
+    { "id": 1, "nome": "Ana Clara", "email": "ana.clara@email.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"},
+    { "id": 2, "nome": "Arthur Souza", "email": "arthurjf.estudo@gmail.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"},
+    { "id": 3, "nome": "Aduler Viana", "email": "adulerviana@gmail.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"},
+    { "id": 4, "nome": "Nadine Vasconcellos","email": "nadineifsudeste@gmail.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"}
   ],
   "MetaFinanceira": [ 
     { "id": 1, "nome": "Casamento", "valor": 20000.00, "dataAlvo": "2028-08", "investimentoInicial": 1000.00, "idCliente": 1},
