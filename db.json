@@ -6,7 +6,7 @@
   ],
   "MetaFinanceira": [ 
     { "id": 1, "nome": "Casamento", "valor": 20000.00, "dataAlvo": "2028-08", "investimentoInicial": 1000.00, "idCliente": 1},
-    { "id": 2, "nome": "PlayStation 5", "valor": 5000.00, "dataAlvo": "2026-06", "investimentoInicial": 300.00 , "idCliente": 1},
+    { "id": 2, "nome": "PlayStation 5", "valor": 5000.00, "dataAlvo": "2026-06", "investimentoInicial": 5000.00 , "idCliente": 1},
     { "id": 3, "nome": "Apartamento", "valor": 200000.00, "dataAlvo": "2030-03", "investimentoInicial": 500.00 , "idCliente": 1},
     { "id": 4, "nome": "Carro", "valor": 80000.00, "dataAlvo": "2027-10", "investimentoInicial": 5000.00 , "idCliente": 1}
   ],
