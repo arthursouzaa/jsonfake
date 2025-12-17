@@ -6,10 +6,10 @@
     { "id": 4, "nome": "Nadine Vasconcellos","email": "nadineifsudeste@gmail.com", "telefone": "99-9999-9999", "senha": "financeTrack@123", "senhaConfirmada": "financeTrack@123"}
   ],
   "MetaFinanceira": [ 
-    { "id": 1, "nome": "Casamento", "valor": 20000.00, "dataAlvo": "2028-08", "investimentoInicial": 1000.00, "idCliente": 1},
-    { "id": 2, "nome": "PlayStation 5", "valor": 5000.00, "dataAlvo": "2026-06", "investimentoInicial": 4200.00 , "idCliente": 1},
-    { "id": 3, "nome": "Apartamento", "valor": 200000.00, "dataAlvo": "2030-03", "investimentoInicial": 500.00 , "idCliente": 1},
-    { "id": 4, "nome": "Carro", "valor": 80000.00, "dataAlvo": "2027-10", "investimentoInicial": 5000.00 , "idCliente": 1}
+    { "id": 1, "nome": "Casamento", "valor": 20000.00, "dataEnvio": "2025-08", "dataAlvo": "2028-08", "investimentoInicial": 1000.00, "idCliente": 1},
+    { "id": 2, "nome": "PlayStation 5", "valor": 5000.00, "dataEnvio": "2025-07", "dataAlvo": "2026-06", "investimentoInicial": 4200.00 , "idCliente": 1},
+    { "id": 3, "nome": "Apartamento", "valor": 200000.00, "dataEnvio": "2025-06", "dataAlvo": "2030-03", "investimentoInicial": 500.00 , "idCliente": 1},
+    { "id": 4, "nome": "Carro", "valor": 80000.00, "dataEnvio": "2025-09", "dataAlvo": "2027-10", "investimentoInicial": 5000.00 , "idCliente": 1}
   ],
   "Aporte": [
     { "id": 1, "valor": 2400.00, "data": "2025-09-05", "idMetaFinanceira": 1},
